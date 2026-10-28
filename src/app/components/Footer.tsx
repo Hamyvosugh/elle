@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="footer-column">
           <p className="footer-heading">Kontakt</p>
           <a href="tel:+491788424521">0178 8424521</a>
-          <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram ↗</a>
+          <a href="https://instagram.com/l_elle_spa" target="_blank" rel="noreferrer">@l_elle_spa ↗</a>
         </div>
       </div>
       <div className="footer-bottom">

@@ -1,9 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
   return (
     <section className="hero" aria-labelledby="hero-title">
-      <div className="hero-orb" aria-hidden="true" />
       <div className="hero-content">
         <p className="hero-eyebrow">Kosmetik · Massage · Selfcare</p>
         <h1 id="hero-title">
@@ -23,6 +23,16 @@ export default function Hero() {
             Behandlungen entdecken <span aria-hidden="true">↗</span>
           </Link>
         </div>
+      </div>
+      <div className="hero-image-wrap">
+        <Image
+          className="hero-image"
+          src="/images/mobile.webp"
+          alt="Ruhige Beauty-Behandlung bei Elle"
+          width={620}
+          height={620}
+          priority
+        />
       </div>
       <p className="hero-scroll" aria-hidden="true">
         Scroll to explore <span>↓</span>

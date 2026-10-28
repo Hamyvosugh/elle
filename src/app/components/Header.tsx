@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="site-header">
-      <Link className="site-logo" href="/" aria-label="Alisha home">
-        ALISHA
+      <Link className="site-logo" href="/" aria-label="Elle home">
+        ELLE
       </Link>
 
       <nav className="site-nav" aria-label="Main navigation">
